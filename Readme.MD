@@ -49,7 +49,10 @@ bre
 
 
 **Ruby - Entrada y Salida:**
-* **Notacion:** I/O = Input Entrada/Salida Output
+* **Notacion:** I/O = Input Entrada/Salida Output 
+* **puts:** Metodo de salida. Ej. put = "Hola #{nombre}" agrega un salto de linea al final de la cadena
+* **print:** Metodo de salida. Ej. print = "Hola #{nombre}."
+* **gets:** Es un metodo de entrada que acepta datos del teclado y lo alamcena en varible (Retorna o asigna el valor una variable)
 
 
 
