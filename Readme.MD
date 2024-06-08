@@ -1,4 +1,5 @@
 ## Ruby: Un lenguaje poderoso y flexible
+* **Consola:** irb
 
 **Características clave:**
 
@@ -33,7 +34,7 @@ bre
 **Variables:**
 
 * **Tipado:** Dinamico no se necesita declarar el tipo de dato de la variable. Ej: nombre_variable= "Hola"
-* **Notacion:** snakecase ejemplo: nombre_de_variable 
+* **Notacion:** snakecase ejemplo: nombre_de_variable  a ecepcion nombre de clases que se usa camelcaase
 * **Palabras reservadas:** new, put, iniciar nombre con mayusculas o numero.
 
 **Numeros:**
@@ -53,6 +54,39 @@ bre
 * **puts:** Metodo de salida. Ej. put = "Hola #{nombre}" agrega un salto de linea al final de la cadena
 * **print:** Metodo de salida. Ej. print = "Hola #{nombre}."
 * **gets:** Es un metodo de entrada que acepta datos del teclado y lo alamcena en varible (Retorna o asigna el valor una variable)
+**.chomp:** Este metdodo de las cadenas elimina el salto de linea de que agrega gets.
+
+**Ruby - Ejecutar codigo en Ruby:**
+* **Notacion:** cd + Ruta del archivo .rb que contiene el codigo
+* **Ejecutar:** ruby + nombre del archivo .rb que contiene el codigo incluida la extenxion .rb
+
+**Curso Ruby - Sintaxis:**
+* **Caracteristicas propias:** No hay ";", no es una ptactica común... se usa para tener dos instrucciones en una misma linea
+* **Comentarios:** Por convención se usa el # al inicio del codigo y no muy comun para comentarios de bloques de codigo "=begin =end" pegados al inicio del codigo.
+* **Parentisis:** () son opcionales al enviar parametros en una función... uso comun en funciones.... obiarlos solo con petisiones dsl o en pruebas
+
+**Curso Ruby - Operadores aritméticos:**
+* **Caracteristicas propias:** Suma = +, Resta -, Multiplicacion *, Division /, Modulo = %, potencia = **. Ej. potencia de 2 es = 3**2'
+* **Precedencia:** 1er Nivle: Potencia, 2do Nivel: Multiplicacion, Division, (Se ejecuta el que este mas a la izquierda) 3er Nivel: Suma, Resta.
+* **Alteracion de la presedencia:** Se hace uso de parentesis ()... (5+2)*10 = 17.
+
+**Curso Ruby - Operadores comparación:**
+* **Caracteristicas propias:** Mayor que = >, menro que = <, mayor igual que >=, menor igual que <=; comparacion == ; comparación  <=>, es igual .ql? ej: 1.eql?(1.0) = false
+                               diferencia !=.
+* **Precedencia:** 1er Nivle: Potencia, 2do Nivel: Multiplicacion, Division, (Se ejecuta el que este mas a la izquierda) 3er Nivel: Suma, Resta.
+* **Alteracion de la presedencia:** Se hace uso de parentesis ()... (5+2)*10 = 17.
+
+**Curso Ruby - Operadores lógicos:**
+* **Caracteristicas propias:** AND = && tambien de usa and, OR = ||, tambien se usa or, negacion = ! se usa el not,  por convencion se usan los simbolos &&, ||, !
+* **Precedencia:** 1er Nivle: **, 2do Nivel: !, 3er Nivel: *, /, %, 4to Nivel: +, -, 5to Nivel: <, >, <=, >=, 6to Nivel: ==, <=>, !=, 7mo Nivel: &&, 8tavo Nivel: ||,
+                   9no Nivel: Asignacion, 10mo Nivel: not, 11vo Nivel: or, and (Estos ultimos not, or, and) por convension no se usan al codificar en Ruby
+* **Alteracion de la presedencia:**
+
+* **Curso Ruby - Condiciones:**
+* **Caracteristicas propias:** 
+* **Precedencia:** 
+* **Alteracion de la presedencia:**
+
 
 
 

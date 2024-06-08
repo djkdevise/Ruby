@@ -1,8 +1,8 @@
 # IO => Input / Output
 print "Escribe tu nombre: "
-nombre = gets
+nombre = gets.chomp
 
 puts "Hola #{nombre}"
 
-puts "Tu nombre tiene #{nombre.lenght} letras"
+puts "Tu nombre tiene #{nombre.length} letras"
 
